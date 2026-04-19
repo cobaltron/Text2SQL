@@ -1,4 +1,4 @@
-# Text2SQL Studio 🚀
+# Text2SQL Studio
 
 A highly aesthetic, fully local web application powered by **Google's Gemini** and the **Agno Framework** that autonomously converts natural language questions into precise, executable PostgreSQL database queries.
 
