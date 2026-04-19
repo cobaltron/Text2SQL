@@ -1,0 +1,569 @@
+[
+    {
+        "table_name": "customers",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "customers",
+        "column_name": "first_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "customers",
+        "column_name": "last_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "customers",
+        "column_name": "email",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "customers",
+        "column_name": "phone",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "customers",
+        "column_name": "location_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "locations",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "customers",
+        "column_name": "registration_date",
+        "data_type": "timestamp without time zone",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "first_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "last_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "email",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "hire_date",
+        "data_type": "date",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "salary",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "employees",
+        "column_name": "warehouse_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "warehouses",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "product_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "products",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "product_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "products",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "warehouse_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "warehouses",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "warehouse_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "warehouses",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "quantity_on_hand",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "inventory",
+        "column_name": "last_restocked_date",
+        "data_type": "timestamp without time zone",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "street_address",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "postal_code",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "city",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "state_province",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "country_id",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "locations",
+        "column_name": "region_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "regions",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "order_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "orders",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "order_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "orders",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "product_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "products",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "product_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "products",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "quantity",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "unit_price",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "order_items",
+        "column_name": "discount_amount",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "orders",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "orders",
+        "column_name": "customer_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "customers",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "orders",
+        "column_name": "employee_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "employees",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "orders",
+        "column_name": "order_date",
+        "data_type": "timestamp without time zone",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "orders",
+        "column_name": "shipped_date",
+        "data_type": "timestamp without time zone",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "orders",
+        "column_name": "status",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "orders",
+        "column_name": "freight_cost",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "product_categories",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "product_categories",
+        "column_name": "category_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "product_categories",
+        "column_name": "parent_category_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "product_categories",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "products",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "products",
+        "column_name": "product_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "products",
+        "column_name": "description",
+        "data_type": "text",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "products",
+        "column_name": "standard_cost",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "products",
+        "column_name": "list_price",
+        "data_type": "numeric",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "products",
+        "column_name": "category_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "product_categories",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "products",
+        "column_name": "supplier_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "suppliers",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "regions",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "regions",
+        "column_name": "region_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "regions",
+        "column_name": "manager_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "suppliers",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "suppliers",
+        "column_name": "company_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "suppliers",
+        "column_name": "contact_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "suppliers",
+        "column_name": "contact_email",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "suppliers",
+        "column_name": "location_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "locations",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "warehouses",
+        "column_name": "id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "warehouses",
+        "column_name": "warehouse_name",
+        "data_type": "character varying",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    },
+    {
+        "table_name": "warehouses",
+        "column_name": "location_id",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": true,
+        "foreign_table_name": "locations",
+        "foreign_column_name": "id"
+    },
+    {
+        "table_name": "warehouses",
+        "column_name": "capacity",
+        "data_type": "integer",
+        "column_description": null,
+        "is_primary_key": false,
+        "foreign_table_name": null,
+        "foreign_column_name": null
+    }
+]
