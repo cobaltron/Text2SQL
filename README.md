@@ -1,5 +1,7 @@
 # Text2SQL
 
+🔥 **Live Demo:** [https://text2sql-ag58.onrender.com/](https://text2sql-ag58.onrender.com/)
+
 A highly aesthetic, fully local web application powered by **Google's Gemini** and the **Agno Framework** that autonomously converts natural language questions into precise, executable PostgreSQL database queries.
 
 ## Overview
